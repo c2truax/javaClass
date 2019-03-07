@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
+
+
 public class PuzzleJavaTest {
     public static void main(String[] args) {
         PuzzleJava pJ = new PuzzleJava();

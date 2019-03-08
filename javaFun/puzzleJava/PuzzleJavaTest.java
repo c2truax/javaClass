@@ -9,10 +9,12 @@ public class PuzzleJavaTest {
 
         // 1
         Integer[] intArr = {3,5,1,2,7,9,8,13,25,32};
-        ArrayList<Object> numbers = pJ.taskOne(intArr);
-        System.out.println(numbers[0]);
-        for (int i=0; i < numbers[1].length; i++) {
-            System.out.println(numbers[1][i]);
-        }
+        ArrayList<Integer> numbers = pJ.taskOne(intArr);
+        Integer sum = numbers.remove(numbers.size()-1);
+        System.out.println("The sum is: " + sum);
+        System.out.println("Numbers greater than 10: " + numbers);
+
+        // 2
+        
     }
 }
